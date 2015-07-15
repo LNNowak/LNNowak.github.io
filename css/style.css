@@ -1,6 +1,26 @@
-div#mainDiv {
+div {
   text-align: center;
+  margin: 0;
+  top: 0;
+}
+
+div#mainDiv {
   background-color: #aaa7a8;
-  margin-left: 0
-  margin-right: 0;
+  float: left;
+  width: 20%;
+}
+
+div#secDiv {
+  float: right;
+  background-color: #b8dbaf;
+  width: 20%;
+}
+
+div#thirdDiv {
+  background-color: #d067d6;
+}
+
+div p {
+  color: #8c336f;
+  margin: 0;
 }
