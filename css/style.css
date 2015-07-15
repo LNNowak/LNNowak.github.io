@@ -20,6 +20,11 @@ div#thirdDiv {
   background-color: #d067d6;
 }
 
+div#fourthDiv {
+  background-color: #4ce640;
+  overflow: hidden;
+}
+
 div p {
   color: #8c336f;
   margin: 0;
