@@ -1,6 +1,6 @@
-div {
+div#mainDiv {
   text-align: center;
-  margin: 0;
-  padding: 50em;
-
+  background-color: #aaa7a8;
+  margin-left: 0
+  margin-right: 0;
 }
