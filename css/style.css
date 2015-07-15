@@ -22,6 +22,7 @@ div#thirdDiv {
 
 div#fourthDiv {
   background-color: #4ce640;
+  overflow: hidden;
 }
 
 div p {
