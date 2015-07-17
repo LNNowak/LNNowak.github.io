@@ -1,31 +1,10 @@
 div {
   text-align: center;
   margin: 0;
-  top: 0;
 }
 
 div#mainDiv {
   background-color: #aaa7a8;
-  float: left;
-  width: 20%;
-}
-
-div#secDiv {
-  float: right;
-  background-color: #b8dbaf;
-  width: 20%;
-}
-
-div#thirdDiv {
-  background-color: #d067d6;
-}
-
-div#fourthDiv {
-  background-color: #4ce640;
-  overflow: hidden;
-}
-
-div p {
-  color: #8c336f;
-  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
 }
