@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.7.25.0" projectFile="C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\WpiApiDocs.shfbproj" started="2015-09-07 15:31:15">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Framework reflection data location: C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.7.25.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApi\WpiApi.csproj
+    Found project &#39;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApi\WpiApi.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApi\bin\WpiApi.dll&#39;
+
+References to include (excluding framework assemblies):
+    Antlr3.Runtime
+    EntityFramework
+    EntityFramework.SqlServer
+    Microsoft.AspNet.Identity.Core
+    Microsoft.AspNet.Identity.EntityFramework
+    Microsoft.AspNet.Identity.Owin
+    Microsoft.Owin
+    Microsoft.Owin.Host.SystemWeb
+    Microsoft.Owin.Security
+    Microsoft.Owin.Security.Cookies
+    Microsoft.Owin.Security.Facebook
+    Microsoft.Owin.Security.Google
+    Microsoft.Owin.Security.MicrosoftAccount
+    Microsoft.Owin.Security.OAuth
+    Microsoft.Owin.Security.Twitter
+    Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    Newtonsoft.Json
+    Owin
+    System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Web.Http.Owin
+    System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Web.Optimization
+    System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    WebGrease
+
+Copying XML comments files
+    C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApi\bin\WpiApi.XML -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\WpiApi.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0060
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 2015-09-07 15:31:16.
+Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.7.25.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 31 dependency assemblies.
+  Wrote information on 9 namespaces, 51 types, and 211 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2015.7.25.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.52
+    Last step completed in 00:00:00,7525
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - TransformManifest.proj]
+Build started 2015-09-07 15:31:16.
+Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2015.7.25.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2015.7.25.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.7.25.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\TransformManifest.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.38
+    Last step completed in 00:00:00,5734
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0080
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Content\Welcome.aml&#39;
+    C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Content\Welcome.aml -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\ddueXml\737aba77-1b34-4e31-986e-85ec718b6672.xml
+    Parsing topic file &#39;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\ddueXml\6ad152d1-64f7-4eff-9f24-61205cf73c2b.xml
+    Parsing topic file &#39;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\ddueXml\7549ef74-f114-4150-9ab7-07c3fe9d11fe.xml
+    Last step completed in 00:00:00,0200
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    ConceptualManifest.xml
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\icons\Help.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\Help.png
+C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\icons\Help.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\Help.png
+C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\icons\Help.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00,0080
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 2015-09-07 15:31:17.
+Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2015.7.25.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,4036
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    conceptual.config
+    Last step completed in 00:00:00,1701
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\sandcastle.config
+C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\conceptual.config
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="BuildConceptualTopics">
+Building conceptual help topics...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - BuildConceptualTopics.proj]
+Build started 2015-09-07 15:31:18.
+Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildConceptualTopics.proj&quot; on node 1 (default targets).
+BuildConceptualTopics:
+  BuildAssembler (v2015.7.25.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+  Processed 3 topic(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+Done Building Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildConceptualTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.85
+    Last step completed in 00:00:04,0638
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - BuildReferenceTopics.proj]
+Build started 2015-09-07 15:31:22.
+Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
+BuildReferenceTopics:
+  BuildAssembler (v2015.7.25.0)
+  Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.ApplicationUserManager] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.ApplicationUserManager.#ctor(Microsoft.AspNet.Identity.IUserStore{WpiApi.Models.ApplicationUser})] Missing &lt;param name=&quot;store&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{WpiApi.ApplicationUserManager},Microsoft.Owin.IOwinContext)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{WpiApi.ApplicationUserManager},Microsoft.Owin.IOwinContext)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{WpiApi.ApplicationUserManager},Microsoft.Owin.IOwinContext)] Missing &lt;param name=&quot;options&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.ApplicationUserManager.Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions{WpiApi.ApplicationUserManager},Microsoft.Owin.IOwinContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.BundleConfig] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)] Missing &lt;param name=&quot;bundles&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.FilterConfig] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.FilterConfig.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)] Missing &lt;param name=&quot;filters&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.RouteConfig] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.RouteConfig.RegisterRoutes(System.Web.Routing.RouteCollection)] Missing &lt;param name=&quot;routes&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Startup] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Startup.Configuration(Owin.IAppBuilder)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Startup.Configuration(Owin.IAppBuilder)] Missing &lt;param name=&quot;app&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Startup.Configuration(Owin.IAppBuilder)] Unknown reference link target &#39;T:Owin.IAppBuilder&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Startup.Configuration(Owin.IAppBuilder)] Unknown reference link target &#39;T:Owin.IAppBuilder&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Startup.Configuration(Owin.IAppBuilder)] Unknown reference link target &#39;T:Owin.IAppBuilder&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Startup.ConfigureAuth(Owin.IAppBuilder)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Startup.ConfigureAuth(Owin.IAppBuilder)] Missing &lt;param name=&quot;app&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Startup.ConfigureAuth(Owin.IAppBuilder)] Unknown reference link target &#39;T:Owin.IAppBuilder&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Startup.ConfigureAuth(Owin.IAppBuilder)] Unknown reference link target &#39;T:Owin.IAppBuilder&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Startup.ConfigureAuth(Owin.IAppBuilder)] Unknown reference link target &#39;T:Owin.IAppBuilder&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Startup.OAuthOptions] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Startup.PublicClientId] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.WebApiApplication] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.WebApiApplication.Application_Start] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.WebApiConfig] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.WebApiConfig.Register(System.Web.Http.HttpConfiguration)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.WebApiConfig.Register(System.Web.Http.HttpConfiguration)] Missing &lt;param name=&quot;config&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi.Areas.HelpPage] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ApiDescriptionExtensions] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.HelpPageAreaRegistration] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.HelpPageAreaRegistration.AreaName] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageAreaRegistration.RegisterArea(System.Web.Mvc.AreaRegistrationContext)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageAreaRegistration.RegisterArea(System.Web.Mvc.AreaRegistrationContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageConfig.Register(System.Web.Http.HttpConfiguration)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageConfig.Register(System.Web.Http.HttpConfiguration)] Missing &lt;param name=&quot;config&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.HelpPageConfigurationExtensions] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:WpiApi.Areas.HelpPage.HelpPageSampleGenerator] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:WpiApi.Areas.HelpPage.HelpPageSampleGenerator] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:WpiApi.Areas.HelpPage.HelpPageSampleGenerator] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:WpiApi.Areas.HelpPage.HelpPageSampleGenerator] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:WpiApi.Areas.HelpPage.HelpPageSampleGenerator] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:WpiApi.Areas.HelpPage.HelpPageSampleGenerator] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject(System.Type)] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject(System.Type)] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject(System.Type)] Unknown reference link target &#39;M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.DefaultSampleObjectFactory(WpiApi.Areas.HelpPage.HelpPageSampleGenerator,System.Type)&#39;. [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.ResolveType(System.Web.Http.Description.ApiDescription,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},WpiApi.Areas.HelpPage.SampleDirection,System.Collections.ObjectModel.Collection{System.Net.Http.Formatting.MediaTypeFormatter}@)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleGenerator.WriteSampleObjectUsingFormatter(System.Net.Http.Formatting.MediaTypeFormatter,System.Object,System.Type,System.Net.Http.Headers.MediaTypeHeaderValue)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleKey.Equals(System.Object)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleKey.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleKey.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleKey.GetHashCode] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.HelpPageSampleKey.GetHashCode] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.HelpPageSampleKey.ParameterType] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ImageSample.Equals(System.Object)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ImageSample.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ImageSample.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ImageSample.GetHashCode] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ImageSample.GetHashCode] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ImageSample.Src] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ImageSample.ToString] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ImageSample.ToString] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.InvalidSample.#ctor(System.String)] Missing &lt;param name=&quot;errorMessage&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.InvalidSample.Equals(System.Object)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.InvalidSample.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.InvalidSample.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.InvalidSample.ErrorMessage] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.InvalidSample.GetHashCode] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.InvalidSample.GetHashCode] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.InvalidSample.ToString] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.InvalidSample.ToString] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.TextSample.#ctor(System.String)] Missing &lt;param name=&quot;text&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.TextSample.Equals(System.Object)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.TextSample.Equals(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.TextSample.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.TextSample.GetHashCode] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.TextSample.GetHashCode] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.TextSample.Text] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.TextSample.ToString] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.TextSample.ToString] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)] Missing &lt;param name=&quot;member&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Type)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Type)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Type)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Missing &lt;param name=&quot;actionDescriptor&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpControllerDescriptor)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpControllerDescriptor)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpControllerDescriptor)] Missing &lt;param name=&quot;controllerDescriptor&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation(System.Web.Http.Controllers.HttpParameterDescriptor)] Missing &lt;param name=&quot;parameterDescriptor&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetResponseDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetResponseDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.XmlDocumentationProvider.GetResponseDocumentation(System.Web.Http.Controllers.HttpActionDescriptor)] Missing &lt;param name=&quot;actionDescriptor&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi.Areas.HelpPage.Controllers] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.#ctor(System.Web.Http.HttpConfiguration)] Missing &lt;param name=&quot;config&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.Api(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.Api(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.Api(System.String)] Missing &lt;param name=&quot;apiId&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.Controllers.HelpController.Configuration] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.Index] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.Index] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.ResourceModel(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.ResourceModel(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.Controllers.HelpController.ResourceModel(System.String)] Missing &lt;param name=&quot;modelName&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi.Areas.HelpPage.ModelDescriptions] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.CollectionModelDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.CollectionModelDescription.ElementDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ComplexTypeModelDescription.Properties] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.DictionaryModelDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.EnumTypeModelDescription.Values] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.EnumValueDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Documentation] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Name] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.EnumValueDescription.Value] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Reflection.MemberInfo)] Missing &lt;param name=&quot;member&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Type)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Type)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.IModelDocumentationProvider.GetDocumentation(System.Type)] Missing &lt;param name=&quot;type&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.KeyModelDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.KeyValuePairModelDescription.ValueModelDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ModelDescription.Documentation] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ModelDescription.ModelType] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ModelDescription.Name] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.#ctor(System.Web.Http.HttpConfiguration)] Missing &lt;param name=&quot;config&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GeneratedModels] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GetOrCreateModelDescription(System.Type)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GetOrCreateModelDescription(System.Type)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.ModelDescriptionGenerator.GetOrCreateModelDescription(System.Type)] Missing &lt;param name=&quot;modelType&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.#ctor(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ModelNameAttribute.Name] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.ParameterAnnotation] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.AnnotationAttribute] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ParameterAnnotation.Documentation] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.ParameterDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ParameterDescription.Annotations] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ParameterDescription.Documentation] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ParameterDescription.Name] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Areas.HelpPage.ModelDescriptions.ParameterDescription.TypeDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Areas.HelpPage.ModelDescriptions.SimpleTypeModelDescription] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi.Areas.HelpPage.Models] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi.Controllers] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Controllers.AccountController] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.#ctor(WpiApi.ApplicationUserManager,Microsoft.Owin.Security.ISecureDataFormat{Microsoft.Owin.Security.AuthenticationTicket})] Missing &lt;param name=&quot;userManager&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.#ctor(WpiApi.ApplicationUserManager,Microsoft.Owin.Security.ISecureDataFormat{Microsoft.Owin.Security.AuthenticationTicket})] Missing &lt;param name=&quot;accessTokenFormat&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Controllers.AccountController.AccessTokenFormat] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.AddExternalLogin(WpiApi.Models.AddExternalLoginBindingModel)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.AddExternalLogin(WpiApi.Models.AddExternalLoginBindingModel)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.AddExternalLogin(WpiApi.Models.AddExternalLoginBindingModel)] Missing &lt;param name=&quot;model&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.ChangePassword(WpiApi.Models.ChangePasswordBindingModel)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.ChangePassword(WpiApi.Models.ChangePasswordBindingModel)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.ChangePassword(WpiApi.Models.ChangePasswordBindingModel)] Missing &lt;param name=&quot;model&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetExternalLogin(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetExternalLogin(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetExternalLogin(System.String,System.String)] Missing &lt;param name=&quot;provider&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetExternalLogin(System.String,System.String)] Missing &lt;param name=&quot;error&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetExternalLogins(System.String,System.Boolean)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetExternalLogins(System.String,System.Boolean)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetExternalLogins(System.String,System.Boolean)] Missing &lt;param name=&quot;returnUrl&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetExternalLogins(System.String,System.Boolean)] Missing &lt;param name=&quot;generateState&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetManageInfo(System.String,System.Boolean)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetManageInfo(System.String,System.Boolean)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetManageInfo(System.String,System.Boolean)] Missing &lt;param name=&quot;returnUrl&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetManageInfo(System.String,System.Boolean)] Missing &lt;param name=&quot;generateState&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetUserInfo] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.GetUserInfo] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.Logout] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.Logout] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.Register(WpiApi.Models.RegisterBindingModel)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.Register(WpiApi.Models.RegisterBindingModel)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.Register(WpiApi.Models.RegisterBindingModel)] Missing &lt;param name=&quot;model&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.RegisterExternal(WpiApi.Models.RegisterExternalBindingModel)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.RegisterExternal(WpiApi.Models.RegisterExternalBindingModel)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.RegisterExternal(WpiApi.Models.RegisterExternalBindingModel)] Missing &lt;param name=&quot;model&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.RemoveLogin(WpiApi.Models.RemoveLoginBindingModel)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.RemoveLogin(WpiApi.Models.RemoveLoginBindingModel)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.RemoveLogin(WpiApi.Models.RemoveLoginBindingModel)] Missing &lt;param name=&quot;model&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.SetPassword(WpiApi.Models.SetPasswordBindingModel)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.SetPassword(WpiApi.Models.SetPasswordBindingModel)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.AccountController.SetPassword(WpiApi.Models.SetPasswordBindingModel)] Missing &lt;param name=&quot;model&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Controllers.AccountController.UserManager] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Controllers.ValuesController] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Delete(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Delete(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Get] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Get] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Get(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Get(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Get(System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Post(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Post(System.String)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Put(System.Int32,System.String)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Put(System.Int32,System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Controllers.ValuesController.Put(System.Int32,System.String)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi.Models] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.AddExternalLoginBindingModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.AddExternalLoginBindingModel.ExternalAccessToken] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.ApplicationDbContext] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Models.ApplicationDbContext.Create] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Models.ApplicationDbContext.Create] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.ApplicationUser] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Models.ApplicationUser.GenerateUserIdentityAsync(Microsoft.AspNet.Identity.UserManager{WpiApi.Models.ApplicationUser},System.String)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Models.ApplicationUser.GenerateUserIdentityAsync(Microsoft.AspNet.Identity.UserManager{WpiApi.Models.ApplicationUser},System.String)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Models.ApplicationUser.GenerateUserIdentityAsync(Microsoft.AspNet.Identity.UserManager{WpiApi.Models.ApplicationUser},System.String)] Missing &lt;param name=&quot;manager&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Models.ApplicationUser.GenerateUserIdentityAsync(Microsoft.AspNet.Identity.UserManager{WpiApi.Models.ApplicationUser},System.String)] Missing &lt;param name=&quot;authenticationType&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.ChangePasswordBindingModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ChangePasswordBindingModel.ConfirmPassword] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ChangePasswordBindingModel.NewPassword] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ChangePasswordBindingModel.OldPassword] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.ExternalLoginViewModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ExternalLoginViewModel.Name] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ExternalLoginViewModel.State] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ExternalLoginViewModel.Url] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.ManageInfoViewModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ManageInfoViewModel.Email] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ManageInfoViewModel.ExternalLoginProviders] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ManageInfoViewModel.LocalLoginProvider] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.ManageInfoViewModel.Logins] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.RegisterBindingModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.RegisterBindingModel.ConfirmPassword] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.RegisterBindingModel.Email] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.RegisterBindingModel.Password] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.RegisterExternalBindingModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.RegisterExternalBindingModel.Email] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.RemoveLoginBindingModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.RemoveLoginBindingModel.LoginProvider] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.RemoveLoginBindingModel.ProviderKey] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.SetPasswordBindingModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.SetPasswordBindingModel.ConfirmPassword] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.SetPasswordBindingModel.NewPassword] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.UserInfoViewModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.UserInfoViewModel.Email] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.UserInfoViewModel.HasRegistered] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.UserInfoViewModel.LoginProvider] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Models.UserLoginInfoViewModel] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.UserLoginInfoViewModel.LoginProvider] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Models.UserLoginInfoViewModel.ProviderKey] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi.Providers] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Providers.ApplicationOAuthProvider] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.#ctor(System.String)] Missing &lt;param name=&quot;publicClientId&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.CreateProperties(System.String)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.CreateProperties(System.String)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.CreateProperties(System.String)] Missing &lt;param name=&quot;userName&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.GrantResourceOwnerCredentials(Microsoft.Owin.Security.OAuth.OAuthGrantResourceOwnerCredentialsContext)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.GrantResourceOwnerCredentials(Microsoft.Owin.Security.OAuth.OAuthGrantResourceOwnerCredentialsContext)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.GrantResourceOwnerCredentials(Microsoft.Owin.Security.OAuth.OAuthGrantResourceOwnerCredentialsContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.TokenEndpoint(Microsoft.Owin.Security.OAuth.OAuthTokenEndpointContext)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.TokenEndpoint(Microsoft.Owin.Security.OAuth.OAuthTokenEndpointContext)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.TokenEndpoint(Microsoft.Owin.Security.OAuth.OAuthTokenEndpointContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.ValidateClientAuthentication(Microsoft.Owin.Security.OAuth.OAuthValidateClientAuthenticationContext)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.ValidateClientAuthentication(Microsoft.Owin.Security.OAuth.OAuthValidateClientAuthenticationContext)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.ValidateClientAuthentication(Microsoft.Owin.Security.OAuth.OAuthValidateClientAuthenticationContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.ValidateClientRedirectUri(Microsoft.Owin.Security.OAuth.OAuthValidateClientRedirectUriContext)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.ValidateClientRedirectUri(Microsoft.Owin.Security.OAuth.OAuthValidateClientRedirectUriContext)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Providers.ApplicationOAuthProvider.ValidateClientRedirectUri(Microsoft.Owin.Security.OAuth.OAuthValidateClientRedirectUriContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:WpiApi.Results] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:WpiApi.Results.ChallengeResult] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Results.ChallengeResult.#ctor(System.String,System.Web.Http.ApiController)] Missing &lt;param name=&quot;loginProvider&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Results.ChallengeResult.#ctor(System.String,System.Web.Http.ApiController)] Missing &lt;param name=&quot;controller&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Results.ChallengeResult.ExecuteAsync(System.Threading.CancellationToken)] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Results.ChallengeResult.ExecuteAsync(System.Threading.CancellationToken)] Missing &lt;returns&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:WpiApi.Results.ChallengeResult.ExecuteAsync(System.Threading.CancellationToken)] Missing &lt;param name=&quot;cancellationToken&quot;/&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Results.ChallengeResult.LoginProvider] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:WpiApi.Results.ChallengeResult.Request] Missing &lt;summary&gt; documentation [C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj]
+  Processed 338 topic(s)
+  280 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 11 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+Done Building Project &quot;C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\BuildReferenceTopics.proj&quot; (default targets).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.11
+    Last step completed in 00:00:10,3399
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2015.7.25.0
+Copyright c 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1
+Processed 341 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\WpiApiDocs.hhk
+Saving HTML Help 1 table of contents to C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\WpiApiDocs.hhc
+
+Processing website files in C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website
+Processed 341 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\WebKI.xml
+Saving website table of contents to C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00,7860
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\MSHelpViewer\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00,8274
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\WpiApiDocs.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 3 seconds
+  
+  343	Topics
+  
+  3,467	Local links
+  
+  621	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\Working\Output\HtmlHelp1\WpiApiDocs.chm, 370,140 bytes
+  
+  Compression decreased file by 1,911,396 bytes.
+  
+    Last step completed in 00:00:04,6979
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Executing informational Generate Table of Contents build step for plug-ins (not used for MS Help Viewer)
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Executing informational Generate Help Project build step for plug-ins (not used for MS Help Viewer)
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Generating MS Help Viewer file...
+[C:\Program Files (x86)\MSBuild\12.0\bin\MSBuild.exe - BuildHelpViewerFile.proj]
+  Compressing help content files...
+  Compression finished.  412 items added
+  Saving C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\WpiApiDocs.mshc...
+  Finished saving C:\Users\Lucas\Source\Repos\WpiApi\WpiApi\WpiApiDocs\Help\WpiApiDocs.mshc
+  Compressed 5 folders, 407 files.  Reduced size by 1˙602˙508 bytes (72%).
+    Last step completed in 00:00:01,0555
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:01,1049
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 574 files for the website content
+    Last step completed in 00:00:01,6231
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:01,1314
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 2015-09-07 15:31:43.  Total time: 00:00:28,3696
+
+</buildStep>
+</shfbBuild>
