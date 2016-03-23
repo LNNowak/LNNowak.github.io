@@ -1,0 +1,14 @@
+[
+  {
+    "outputFileName": "JavaScript/app.js",
+    "inputFiles": [
+      "JavaScript/app.js"
+    ]
+  },
+  {
+    "outputFileName": "JavaScript/utils/colorsBalance.js",
+    "inputFiles": [
+      "JavaScript/utils/colorsBalance.js"
+    ]
+  }
+]

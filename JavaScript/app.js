@@ -1,24 +1,45 @@
 ﻿"use strict";
 
-angular.module("LNNowak", [])
-    .controller("MainCtrl", ["$rootScope", "$scope", function($rootScope, $scope) {
-        $scope.colors = {
-            red: 0,
-            green: 0,
-            blue: 0
-        };
+angular.module("LNNowak", [
+    "ui.router",
+    "lnnowak.colorsBalance"
+])
+    .config(["$stateProvider", "$urlRouterProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, $locationProvider) {
+        $urlRouterProvider.otherwise("/home/balance");
 
-        $scope.newColors = {
-            red: 0,
-            green: 0,
-            blue: 0
-        };
+        $locationProvider.html5Mode(true).hashPrefix('*');
 
-        $scope.calculateColors = function() {
-            var rbDif = ($scope.colors.red - $scope.colors.blue) / 2;
-
-            $scope.newColors.red = $scope.colors.green + rbDif;
-            $scope.newColors.blue = $scope.colors.green - rbDif;
-            $scope.newColors.green = $scope.colors.green;
-        }
+        $stateProvider
+            .state("lnnowak", {
+                abstract: true,
+                url: "/home",
+                views: {
+                    "topPanel": {
+                        templateUrl: "partials/topPanel.html"
+                    },
+                    "bottomPanel": {
+                        templateUrl: "partials/bottomPanel.html"
+                    }
+                }
+            })
+            .state("lnnowak.colorsBalance", {
+                url: "/balance",
+                views: {
+                    "centralPanel@": {
+                        templateUrl: "partials/utils/colorsBalance.html"
+                    }
+                }
+            })
+            .state("lnnowak.colorsConverter", {
+                url: "/converters",
+                views: {
+                    "centralPanel@": {
+                        templateUrl: "partials/utils/colorsConverter.html"
+                    }
+                }
+            })
+        ;
+    }])
+    .controller("MainCtrl", ["$rootScope", "$scope", function ($rootScope, $scope) {
+        
     }]);

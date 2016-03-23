@@ -1,0 +1,24 @@
+﻿<div ng-controller="balanceCtrl">
+    <h3>Wejście</h3>
+    <form novalidate="" name="colorsForm">
+        <div class="form-group">
+            <label for="red">Czerwony</label>
+            <input class="form-control" type="number" name="red" ng-model="colors.red" ng-change="calculateColors()" />
+        </div>
+        <div class="form-group">
+            <label for="green">Zielony</label>
+            <input class="form-control" type="number" name="green" ng-model="colors.green" ng-change="calculateColors()" />
+        </div>
+        <div class="form-group">
+            <label for="blue">Niebieski</label>
+            <input class="form-control" type="number" name="blue" ng-model="colors.blue" ng-change="calculateColors()" />
+        </div>
+        <button class="btn btn-success" ng-click="calculateColors()">Oblicz</button>
+    </form>
+    <div>
+        <h3>Nowe kolory</h3>
+        <span>Czerwony: {{newColors.red}}</span>
+        <span>Zielony: {{newColors.green}}</span>
+        <span>Niebieski: {{newColors.blue}}</span>
+    </div>
+</div>
