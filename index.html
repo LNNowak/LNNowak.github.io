@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="LNNowak">
+<head>
+    <meta charset="UTF-8">
+    <title>Obliczanie kolorów</title>
+    <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-controller="MainCtrl">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <h3>Wejście</h3>
+                <form novalidate="" name="colorsForm">
+                    <div class="form-group">
+                        <label for="red">Czerwony</label>
+                        <input class="form-control" type="number" name="red" ng-model="colors.red"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="green">Zielony</label>
+                        <input class="form-control" type="number" name="green" ng-model="colors.green"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="blue">Niebieski</label>
+                        <input class="form-control" type="number" name="blue" ng-model="colors.blue"/>
+                    </div>
+                    <button class="btn btn-success" ng-click="calculateColors()">Oblicz</button>
+                </form>
+                <div>
+                    <h3>Nowe kolory</h3>
+                    <span>Czerwony: {{newColors.red}}</span>
+                    <span>Zielony: {{newColors.green}}</span>
+                    <span>Niebieski: {{newColors.blue}}</span>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="JavaScript/app.js"></script>
+</body>
+</html>
