@@ -2,7 +2,10 @@
 
 angular.module("LNNowak", [
     "ui.router",
-    "lnnowak.colorsBalance"
+    "colorpicker.module",
+
+    "lnnowak.colorsBalance",
+    "lnnowak.colorsConverter"
 ])
     .config(["$stateProvider", "$urlRouterProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, $locationProvider) {
         $urlRouterProvider.otherwise("/home/balance");

@@ -16,5 +16,11 @@
     "inputFiles": [
       "CSS/main.css"
     ]
+  },
+  {
+    "outputFileName": "JavaScript/utils/colorsConverter.js",
+    "inputFiles": [
+      "JavaScript/utils/colorsConverter.js"
+    ]
   }
 ]
