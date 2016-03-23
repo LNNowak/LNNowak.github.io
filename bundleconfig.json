@@ -10,5 +10,11 @@
     "inputFiles": [
       "JavaScript/utils/colorsBalance.js"
     ]
+  },
+  {
+    "outputFileName": "CSS/main.css",
+    "inputFiles": [
+      "CSS/main.css"
+    ]
   }
 ]

@@ -7,7 +7,7 @@ angular.module("LNNowak", [
     .config(["$stateProvider", "$urlRouterProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider, $locationProvider) {
         $urlRouterProvider.otherwise("/home/balance");
 
-        $locationProvider.html5Mode(true).hashPrefix('*');
+        $locationProvider.html5Mode(true).hashPrefix("#");
 
         $stateProvider
             .state("lnnowak", {
