@@ -1,0 +1,28 @@
+{
+  "name": "LNOWAK_PAGE",
+  "version": "0.0.1",
+  "authors": [
+    "TBU"
+  ],
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "commercial",
+  "homepage": "lnnowak.github.io/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {"AngularJS-Toaster": "angularjs-toaster#~0.4.16",
+    "angular": "~1.5.2",
+    "angular-ui": "~0.4.0",
+    "angular-ui-router": "~0.2.18",
+    "font-awesome": "~4.4.0",
+    "metro-bootstrap": "*",
+    "bootstrap": "~3.3.6",
+  }
+}
