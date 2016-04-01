@@ -158,7 +158,7 @@ ClientBin/
 *.dbproj.schemaview
 *.pfx
 # *.publishsettings
-node_modules/
+node_modules/*
 
 
 # RIA/Silverlight projects
@@ -190,4 +190,4 @@ _Pvt_Extensions/
 ModelManifest.xml
 .vs/
 bower_components/*
-!Scripts/*
+Scripts/*
