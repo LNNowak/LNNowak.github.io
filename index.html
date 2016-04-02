@@ -6,11 +6,11 @@
     <base href="/" />
     <link type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link type="text/css" href="node_modules/angular-bootstrap-colorpicker/css/colorpicker.min.css" rel="stylesheet" />
-    <link type="text/css" href="dist/css/styles.min.css" rel="stylesheet" />
+    <!--<link type="text/css" href="dist/css/styles.min.css" rel="stylesheet" />-->
 
 </head>
 <body>
-    <div class="page container" ng-controller="MainCtrl">
+    <div class="page container" id="mainId" ng-controller="MainCtrl">
         <div class="row mainBox">
             <div class="col-md-2"></div>
             <div class="col-md-8">
@@ -42,7 +42,14 @@
     <script type="text/javascript" defer="" src="dist/js/Commons/Commons.min.js"></script>
     <script type="text/javascript" defer="" src="dist/js/utils/colorBalance.min.js"></script>
     <script type="text/javascript" defer="" src="dist/js/utils/colorsConverter.min.js"></script>
-    
+
+    <script type="text/javascript" defer="">
+        var stylesheet = document.createElement('link');
+        stylesheet.href = 'dist/css/styles.min.css';
+        stylesheet.rel = 'stylesheet';
+        stylesheet.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(stylesheet);
+    </script>
 
 </body>
 </html>
