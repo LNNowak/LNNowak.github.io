@@ -16,6 +16,8 @@ var paths = {
 	"./dist/css/*.min.css",
 	"./dist/js/**/*.min.js",
 	"./dist/js/*.min.js",
+	".JavaScript/*.js",
+	".JavaScript/**/*.js",
 	"./index.html"
     ],
     sass: [

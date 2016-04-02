@@ -1,6 +1,6 @@
 /// <reference path="../Scripts/typings/angularjs/angular.d.ts"   />
 /// <reference path="../Scripts/typings/angularjs/angular-route.d.ts"   />
-/// <reference path="../typings/angular-ui-router/angular-ui-router.d.ts"   />
+/// <reference path="../Scripts/typings/angular-ui-router/angular-ui-router.d.ts"   />
 
 var modules: Array<string> = [
     "lnnowak.ColorsConverter",
