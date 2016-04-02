@@ -4,7 +4,7 @@
 
 module app {
     "use strict";
-    import RGBColors = Commons.RGBColors;
+    import RGBColors = Commons.RgbColors;
 
     export interface IBalanceCtrl extends ng.IScope {
         colors: RGBColors;
@@ -14,7 +14,7 @@ module app {
     }
 
     export class BalanceCtrl {
-        static $inject = ['$scope'];
+        static $inject = ["$scope"];
 
         constructor($scope: IBalanceCtrl) {
             $scope.colors = new RGBColors(0, 0, 0);
@@ -40,8 +40,8 @@ module app {
 
 
     angular
-        .module('lnnowak.ColorsBalance', [])
-        .controller('BalanceCtrl', BalanceCtrl)
+        .module("lnnowak.ColorsBalance", [])
+        .controller("BalanceCtrl", BalanceCtrl)
         ;
 
 

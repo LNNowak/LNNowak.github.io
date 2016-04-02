@@ -3,7 +3,7 @@
 var app;
 (function (app) {
     "use strict";
-    var RGBColors = Commons.RGBColors;
+    var RGBColors = Commons.RgbColors;
     var BalanceCtrl = (function () {
         function BalanceCtrl($scope) {
             $scope.colors = new RGBColors(0, 0, 0);
@@ -20,12 +20,12 @@ var app;
                 }
             }, true);
         }
-        BalanceCtrl.$inject = ['$scope'];
+        BalanceCtrl.$inject = ["$scope"];
         return BalanceCtrl;
     }());
     app.BalanceCtrl = BalanceCtrl;
     angular
-        .module('lnnowak.ColorsBalance', [])
-        .controller('BalanceCtrl', BalanceCtrl);
+        .module("lnnowak.ColorsBalance", [])
+        .controller("BalanceCtrl", BalanceCtrl);
 })(app || (app = {}));
 ;

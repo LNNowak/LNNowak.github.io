@@ -1,28 +1,28 @@
 /// <reference path="../../Scripts/typings/angularjs/angular.d.ts"   />
 var Commons;
 (function (Commons) {
-    var RGBColors = (function () {
-        function RGBColors(red, green, blue) {
+    var RgbColors = (function () {
+        function RgbColors(red, green, blue) {
             this.red = red;
             this.green = green;
             this.blue = blue;
         }
-        RGBColors.prototype.detruct = function () {
+        RgbColors.prototype.detruct = function () {
             this.red = null;
             this.green = null;
             this.blue = null;
         };
-        return RGBColors;
+        return RgbColors;
     }());
-    Commons.RGBColors = RGBColors;
+    Commons.RgbColors = RgbColors;
     var ColorsString = (function () {
-        function ColorsString(HEX, RGB) {
-            this.HEX = HEX;
-            this.RGB = RGB;
+        function ColorsString(hex, rgb) {
+            this.hex = hex;
+            this.rgb = rgb;
         }
         ColorsString.prototype.destructor = function () {
-            this.HEX = "";
-            this.RGB = "";
+            this.hex = "";
+            this.rgb = "";
         };
         return ColorsString;
     }());

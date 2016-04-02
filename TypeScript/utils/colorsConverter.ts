@@ -6,29 +6,27 @@ module app {
 
 
     export interface IColorConverterCtrl extends ng.IScope {
-        Colors: ColorsString;
+        colors: ColorsString;
         rgbToHex(red: number, green: number, blue: number): string;
-        hexToRgb(HEX: string): any;
+        hexToRgb(hex: string): any;
         rgbStringToHex(rgbStr: string): string;
         hexStringToRgbString(hexStr: string): string;
 
     }
 
     export class ColorConverterCtrl {
-        static $inject = ['$scope'];
+        static $inject = ["$scope"];
 
         constructor($scope: IColorConverterCtrl) {
-            $scope.Colors = new ColorsString("#000000", "rgb(0,0,0)");
+            $scope.colors = new ColorsString("#000000", "rgb(0,0,0)");
 
             $scope.rgbToHex = (red, green, blue) =>{
-                return "#" + ((1 << 24) + (red << 16) + (green << 8) + blue).toString(16).slice(1);
+                return `#${((1 << 24) + (red << 16) + (green << 8) + blue).toString(16).slice(1)}`;
             }
 
             $scope.hexToRgb = (hex) => {
                 var shorthandRegex: RegExp = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-                hex = hex.replace(shorthandRegex, function (m, r, g, b) {
-                    return r + r + g + g + b + b;
-                });
+                hex = hex.replace(shorthandRegex, (m, r, g, b) => (r + r + g + g + b + b));
 
                 var result: RegExpExecArray = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
                 return result ? {
@@ -48,15 +46,15 @@ module app {
                 return "rgb(" + temp.r + "," + temp.g + "," + temp.b + ")";
             };
 
-            $scope.$watch(() => { return $scope.Colors.RGB }, (newValue, oldValue) => {
+            $scope.$watch(() => { return $scope.colors.rgb }, (newValue, oldValue) => {
                 if (newValue !== oldValue) {
-                    $scope.Colors.HEX = $scope.rgbStringToHex($scope.Colors.RGB);
+                    $scope.colors.hex = $scope.rgbStringToHex($scope.colors.rgb);
                 }
             });
 
-            $scope.$watch(() => { return $scope.Colors.HEX }, (newValue, oldValue) => {
+            $scope.$watch(() => { return $scope.colors.hex }, (newValue, oldValue) => {
                 if (newValue !== oldValue) {
-                    $scope.Colors.RGB = $scope.hexStringToRgbString($scope.Colors.HEX);
+                    $scope.colors.rgb = $scope.hexStringToRgbString($scope.colors.hex);
                 }
             });
 
@@ -65,8 +63,8 @@ module app {
 
 
     angular
-        .module('lnnowak.ColorsConverter', [])
-        .controller('ConverterCtrl', ColorConverterCtrl)
+        .module("lnnowak.ColorsConverter", [])
+        .controller("ConverterCtrl", ColorConverterCtrl)
         ;
 
 

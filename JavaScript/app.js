@@ -7,10 +7,10 @@ var modules = [
 ];
 modules.forEach(function (module) { return angular.module(module, []); });
 modules.push("ui.router");
-modules.push('colorpicker.module');
-angular.module('LNNowak', modules);
-angular.module('LNNowak')
-    .config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function ($stateProvider, $urlRouterProvider, $locationProvider) {
+modules.push("colorpicker.module");
+angular.module("LNNowak", modules);
+angular.module("LNNowak")
+    .config(["$stateProvider", "$urlRouterProvider", "$locationProvider", function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/home/balance");
         $stateProvider
             .state("lnnowak", {

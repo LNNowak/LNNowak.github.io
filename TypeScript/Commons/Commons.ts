@@ -2,10 +2,10 @@
 
 module Commons {
     
-    export class RGBColors {
-        public red: number;
-        public green: number;
-        public blue: number;
+    export class RgbColors {
+        red: number;
+        green: number;
+        blue: number;
 
         constructor(red: number, green: number, blue: number) {
             this.red = red;
@@ -21,16 +21,16 @@ module Commons {
     }
 
     export class ColorsString {
-        public HEX: string;
-        public RGB: string;
-        constructor(HEX: string, RGB: string) {
-            this.HEX = HEX;
-            this.RGB = RGB;
+        hex: string;
+        rgb: string;
+        constructor(hex: string, rgb: string) {
+            this.hex = hex;
+            this.rgb = rgb;
         }
 
         destructor() {
-            this.HEX = "";
-            this.RGB = "";
+            this.hex = "";
+            this.rgb = "";
         }
     }
 }
