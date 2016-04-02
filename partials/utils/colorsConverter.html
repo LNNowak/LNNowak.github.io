@@ -1,14 +1,14 @@
-﻿<div ng-controller="converterCtrl">
+﻿<div ng-controller="ConverterCtrl">
     <div class="row">
         <div class="col-md-6">
             <label>RGB</label>
-            <input class="form-control" colorpicker="rgb" type="text" ng-model="colors.rgb" ng-change="rgbOnChange()"/>
+            <input class="form-control" colorpicker="rgb" type="text" ng-model="Colors.RGB"/>
             <label>Hex</label>
-            <input class="form-control" colorpicker="hex" type="text" ng-model="colors.hex" ng-change="hexOnChange()"/>
+            <input class="form-control" colorpicker="hex" type="text" ng-model="Colors.HEX"/>
         </div>
         <div class="col-md-6">
-            <div>{{colors.rgb}}</div>
-            <div>{{colors.hex}}</div>
+            <div>{{Colors.RGB}}</div>
+            <div>{{Colors.HEX}}</div>
         </div>
     </div>
 </div>

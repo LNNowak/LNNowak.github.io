@@ -1,19 +1,19 @@
-﻿<div ng-controller="balanceCtrl">
+﻿<div ng-controller="BalanceCtrl">
     <div class="row">
         <div class="col-md-6">
             <h3>Input</h3>
             <form novalidate="" name="colorsForm">
                 <div class="form-group">
                     <label for="red" style="color: red;">Red</label>
-                    <input class="form-control" type="number" name="red" ng-model="colors.red" ng-change="calculateColors()" />
+                    <input class="form-control" type="number" name="red" ng-model="colors.red"  />
                 </div>
                 <div class="form-group">
                     <label for="green" style="color: green;">Green</label>
-                    <input class="form-control" type="number" name="green" ng-model="colors.green" ng-change="calculateColors()" />
+                    <input class="form-control" type="number" name="green" ng-model="colors.green"/>
                 </div>
                 <div class="form-group">
                     <label for="blue" style="color: blue;">Blue</label>
-                    <input class="form-control" type="number" name="blue" ng-model="colors.blue" ng-change="calculateColors()" />
+                    <input class="form-control" type="number" name="blue" ng-model="colors.blue"/>
                 </div>
             </form>
         </div>

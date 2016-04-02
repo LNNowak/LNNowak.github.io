@@ -25,7 +25,7 @@ var paths = {
 	'./JavaScript/*.js',
 	'./JavaScript/**/*.js'
     ],
-    TypeScript: ['/TypeScript/**/*.ts']
+    TypeScript: ['./TypeScript/**/*.ts', './TypeScript/*.ts']
 };
 
 
@@ -108,12 +108,13 @@ gulp.task('cssFull', function () {
 gulp.task('watchCSS', function () {
     gulp.watch(paths.sass, ['css']);
 });
-gulp.task('watchJS', function () {
-    gulp.watch(paths.JavaScript, ['JavaScript']);
-});
 gulp.task('watchTS', function () {
     gulp.watch([paths.TypeScript], ['TypeScript']);
 });
+gulp.task('watchJS', function () {
+    gulp.watch(paths.JavaScript, ['JavaScript']);
+});
+
 
 // Static server
 gulp.task('browser-sync', function () {
