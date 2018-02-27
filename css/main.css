@@ -39,8 +39,13 @@ p {
   background-color: #F05F40; }
 
 .bg-dark {
-  background-color: #222;
+  background-color: #555555;
   color: white; }
+
+.other_costs {
+  background-color: #222;
+  color: white;
+  padding: 50px 0; }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7); }
